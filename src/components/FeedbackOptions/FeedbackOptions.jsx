@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div className={css.buttongroup}>
+    <div className={css.button_group}>
       {options.map(option => {
         return (
           <button
